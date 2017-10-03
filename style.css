@@ -1,0 +1,19 @@
+body {
+    font-family:arial, san-serif;
+    font-weight:bold;
+}
+
+.box {
+    width:25%;
+    background:#e5effc;
+    margin:10px;
+    float:left;
+    text-align:center;
+    padding:20px;
+    border-radius:5px;
+}
+
+.box:nth-child(4n+2),
+.box:nth-child(4n+3) {
+    width:50%;
+}
